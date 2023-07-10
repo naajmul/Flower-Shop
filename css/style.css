@@ -15,6 +15,11 @@
     border: none;
     padding: 7px 20px;
 }
+
+.primary-color {
+    color: #E55473;
+}
+
 /* header section style  */
 
 .header {
@@ -50,6 +55,7 @@
     justify-content: space-between;
     align-items: center;
     width: 85%;
+    height: 100vh;
     margin: auto;
 }
 
@@ -58,7 +64,7 @@
 }
 
 .section1-right-image {
-    margin-bottom: -5px;
+    margin-bottom: -28px;
 }
 
 
@@ -155,6 +161,9 @@
 
     text-align: center;
 }
+.bonus-banner h4{
+    color: rgba(39, 39, 39, 0.80);
+}
 
 /* this is hot deal section css */
 
@@ -240,15 +249,32 @@
     text-align: center;
     font-size: 18px;
 }
-.insta-input-container{
+
+.insta-input-container {
     display: flex;
     justify-content: center;
     padding-top: 30px;
     pa
 }
 
-.btn-insta{
+.btn-insta {
     margin-left: 15px;
     font-size: 18px;
     padding: 7px 10px;
+}
+
+.footer {
+    text-align: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    margin-top: 100px;
+}
+
+.footer-h1 {
+    color: #E55473;
+    font-size: 48px;
+    padding-bottom: 10px;
 }
