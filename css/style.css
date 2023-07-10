@@ -6,6 +6,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 25px;
+    border-radius: 6px;
+    background: #E55473;
+    border: none;
+    padding: 7px 20px;
+}
 /* header section style  */
 
 .header {
@@ -35,15 +44,6 @@
     padding-bottom: 30px;
 }
 
-.btn-primary {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 25px;
-    border-radius: 6px;
-    background: #E55473;
-    border: none;
-    padding: 7px 20px;
-}
 
 .section1 {
     display: flex;
@@ -147,11 +147,12 @@
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 1200px;
+    padding: 40px;
+    width: 69vw;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 40px;
+
     text-align: center;
 }
 
@@ -170,4 +171,84 @@
     font-family: Lato;
     font-size: 18px;
 
+}
+
+/* instagram section css */
+.Instagram-text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.Instagram-text>p {
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+}
+
+
+.insta-img {
+    width: 250px;
+}
+
+.instagram-img-boxes {
+    display: flex;
+    gap: 25px;
+    width: 69vw;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+
+
+/* this is insta banner  part css */
+
+.insta-banner {
+    background-image: url('/images/instagram/background\ Rectangle.png');
+    background-size: cover;
+    padding-left: 33px;
+    width: 1037px;
+    height: 327px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    padding: 70px 0 7px 0;
+}
+
+.insta-decription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+.insta-input {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+}
+
+.insta-input[placeholder] {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+.insta-input-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    pa
+}
+
+.btn-insta{
+    margin-left: 15px;
+    font-size: 18px;
+    padding: 7px 10px;
 }
