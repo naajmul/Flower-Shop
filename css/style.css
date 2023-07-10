@@ -156,3 +156,18 @@
 }
 
 /* this is hot deal section css */
+
+.hot-deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-text>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+
+}
