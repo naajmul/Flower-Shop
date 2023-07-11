@@ -214,7 +214,7 @@
 /* this is insta banner  part css */
 
 .insta-banner {
-    background-image: url('/images/instagram/background-Rectangle.png');
+    background-image: url("/images/instagram/background-Rectangle.png");
     background-size: cover;
     padding-left: 33px;
     width: 1037px;
