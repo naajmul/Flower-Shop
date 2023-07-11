@@ -214,7 +214,7 @@
 /* this is insta banner  part css */
 
 .insta-banner {
-    background-image: url("/images/instagram/background-Rectangle.png");
+    background-image: url("../images/instagram/background-Rectangle.png");
     background-size: cover;
     padding-left: 33px;
     width: 1037px;
@@ -277,4 +277,23 @@
     color: #E55473;
     font-size: 48px;
     padding-bottom: 10px;
+}
+
+/* customer riveiw section  */
+
+.customer-section{
+    margin-top: 70px;
+    background: rgba(229, 84, 115, 0.10);
+    padding-top: 50px;
+    position: relative;
+}
+.img-customer{
+    width: 98vw;
+}
+
+.man-img{
+    width: 500px;
+    position: absolute;
+    top: 341px;
+    right: 500px;
 }
